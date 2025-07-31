@@ -17,8 +17,9 @@
     <title>TITLE_GOES_HERE</title>
 </head>
 
-<body style="background-color: ghostwhite;">
-    <h1>Home</h1>
+<body style="background-color: darkgrey;">
+    <h1 href="/respo/index.html">Home</h1>
+    <h1 href="/respo/contact.html">Contact Us</h1><br>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti cumque recusandae optio voluptatum facere
         quidem nobis a commodi impedit ad atque soluta fugiat eveniet minus voluptatem, repellat aliquam perferendis
         quae!</p>
@@ -27,10 +28,9 @@
         <div class="row">
             <div class="col">
                 <p>Which animal do you like ?</p>
-                <img src="/respo/media/lion.jpg" id="lion" height="150px" width="200px">
-                <img src="/respo/media/horse.jpg" id="horse" height="150px" width="200px">
-                <button type="button" id="lion" onclick="Lion">Lion</button>
-                <button type="button" id="horse" onclick="Horse">Horse</button>
+                <button onclick="document.getElementById('img1').src='/respo/media/lion.jpg'" style="background-color: darkgrey;">Lion</button>
+                <img id="img1" src="/respo/media/horse.jpg" alt="pics" style="width: 300px;">
+                <button onclick="document.getElementById('img1').src='/respo/media/horse.jpg'" style="background-color: darkgrey;">Horse</button>
             </div>
         </div>
     </div>
